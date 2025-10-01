@@ -17,3 +17,7 @@ Deploy to Vercel:
 2. Sign in to Vercel and import the repo (Vite detected)
 3. Deploy
 
+git add .
+git commit -m "Add engines and vercel.json"
+git push
+
