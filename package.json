@@ -1,5 +1,5 @@
 {
-  "name": "indian-recipe-builder-full",
+  "name": "indian-recipe-builder",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -17,5 +17,8 @@
   "devDependencies": {
     "vite": "^5.0.0",
     "@vitejs/plugin-react": "^4.2.1"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
