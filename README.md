@@ -1,18 +1,19 @@
-# Indian Recipe Builder — Prototype
+# Indian Pickles & Masala — Seeded MVP
 
-This is a lightweight React + Vite prototype demonstrating:
-- Region-aware brand-based taste calibration (one-question-per-screen)
-- Colorful radar-chart results
-- Regional recipe builder with batch scaling and TTS audio
-- Veg-only recipes (pickles & masala powders)
+This package contains a React + Vite project that implements the final flow:
+- Region-aware brand-based taste calibration (6 axes: spice, sour, tang, salt, oil, sweet)
+- Radar result visualization
+- Auto-adjusted region-specific recipes (seeded 10 recipes)
+- Final recipe view with ingredient scaling (grams/ml) and audio (TTS)
 
-How to run:
+How to run locally:
 1. Unzip the project
-2. `npm install`
-3. `npm run dev`
+2. Run `npm install`
+3. Run `npm run dev`
 4. Open the URL shown by Vite (usually http://localhost:5173)
 
 Deploy to Vercel:
-1. Create a GitHub repo and upload the files
-2. Sign in to Vercel, import the repo and deploy (Vite is auto-detected)
+1. Create a GitHub repo and upload the project contents
+2. Sign in to Vercel and import the repo (Vite detected)
+3. Deploy
 
